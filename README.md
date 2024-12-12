@@ -1,2 +1,2 @@
 # OC
-Repository for laboratory operating systems
+Repository for laboratory operation systems
