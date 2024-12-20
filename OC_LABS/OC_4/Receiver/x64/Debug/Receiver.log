@@ -1,0 +1,36 @@
+﻿  Receiver.cpp
+C:\Users\gamer\source\repos\Oc_my_laba_4\Receiver\Receiver.cpp(13,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\My Mac\VC\Tools\MSVC\14.42.34433\include\xutility(4709,18): warning C4244: =: преобразование "wchar_t" в "char", возможна потеря данных
+  (компиляция исходного файла "Receiver.cpp")
+      D:\My Mac\VC\Tools\MSVC\14.42.34433\include\xutility(4709,18):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\gamer\source\repos\Oc_my_laba_4\Receiver\Receiver.cpp(49,37):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\gamer\source\repos\Oc_my_laba_4\Receiver\Receiver.cpp(49,23):
+              см. первую ссылку на std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string "main"
+          D:\My Mac\VC\Tools\MSVC\14.42.34433\include\xstring(793,17):
+          выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)"
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+          D:\My Mac\VC\Tools\MSVC\14.42.34433\include\xstring(949,18):
+          выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)"
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  Receiver.vcxproj -> C:\Users\gamer\source\repos\Oc_my_laba_4\x64\Debug\Receiver.exe

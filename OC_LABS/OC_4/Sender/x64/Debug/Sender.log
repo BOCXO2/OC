@@ -1,0 +1,3 @@
+﻿  Sender.cpp
+C:\Users\gamer\source\repos\Oc_my_laba_4\Sender\Sender.cpp(63,15): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Sender.vcxproj -> C:\Users\gamer\source\repos\Oc_my_laba_4\x64\Debug\Sender.exe
